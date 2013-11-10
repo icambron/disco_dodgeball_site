@@ -1,0 +1,8 @@
+I haven't actually tested them, but I think these instructions are right:
+
+ 1. Clone the repository
+ 2. Make sure you have bundler installed: `gem install bundler`
+ 3. From the source directory, run `bundle install` to install the dependencies
+ 4. Run `middleman build` to generate the site HTML. It goes into the `build` directory
+
+I built this with Ruby 2.0; I'm not as sure whether it runs on older versions, such as the ancient 1.8.7 that ships with OSX.
