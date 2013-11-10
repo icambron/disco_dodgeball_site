@@ -1,0 +1,66 @@
+$link-color: #27b4cc;
+$link-hover-color: #27b4cc;
+$nav-link-hover-bg: hsla(186, 100%, 7%, 0.9);
+
+@import "bootstrap";
+
+body {
+  background: url('/images/disco_background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  height: auto;
+  min-height: 100%;
+}
+
+.main-box {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  background-color: rgba(0,0,0,0.80);
+  max-width: 810px;
+  height: auto;
+  min-height: 100%;
+}
+
+.nav {
+  font-size: 18px;
+}
+
+.logo-smaller {
+  margin: 0 auto;
+  width: 400px;
+  height: 171px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.front-page-content {
+  color: $link-color;
+  width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 15pt;
+}
+
+h1 {
+  text-align: center;
+}
+
+#unityPlayer {
+  margin-top: 20px;
+}
+
+.panel-faq {
+  @include panel-variant(darken($link-color, 20%), white, darken($link-color, 10%), darken($link-color, 20%));
+}
+
+.panel-body {
+  color: black;
+}
